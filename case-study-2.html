@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="case-study-2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="../Home Page/home.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/70d0ecbfc3.js" crossorigin="anonymous"></script>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NQT1ZR87Z5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NQT1ZR87Z5');
+</script>
+
+</head>
+
+
+<body>
+
+
+
+  <main>
+    <nav>
+      <ul>
+        <li class="logo">Case Study - Streamlining Data Upload</li>
+        <li class="items"><a href="../Home Page/home.html">Home</a></li>
+
+        <!-- <li class="items"><a href="about.html" class="active">About</a></li> -->
+        <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+    </nav>
+    <div class="layout">
+
+
+      <div class="layout-container intro">
+        <div class="hero-image"> <img src="../Case Study 2/Add-Data-Half.png" alt="Add Data Hero Image"></div>
+        <div class="introduction">
+          <h2>Streamlining Data Upload</h2>
+          <h3>for Alchemite Analytics</h3>Creation of a completely new "Add Data" page in Alchemite Analytics, designed to provide users with a quick and effortless means of adding new experiments to their model, thereby improving efficiency and usability.</p>
+        </div>
+      </div>
+
+      <div class=" layout-container about">
+        <div>
+          <div class="titles">About</div>
+        </div>
+        <p>Alchemite Analytics is a <b>machine learning platform</b>, developed to optimise R&D in materials, chemicals and life sciences. This project presents an in-depth exploration of my design journey, focusing on the transformation of the "Add Data" page. This project was a complete redesign, transitioning it from a simple CSV text box to an intuitive, editable table.
+        </p>
+      </div>
+
+      <div class="single-cream-background padding-large">
+        <div>
+          <div class="titles">
+            <h1>Research</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="dual-cream-background padding-bottom-medium">
+        <div class="titles">Original Add Data Page</div>
+        <p>After listening to our users, it became clear that they faced challenges when adding data to their existing models. Instead of using the "Add Data" page, they often resorted to creating new models because our "Create Model" page with its drag-and-drop interface was more intuitive.</p>
+      </div>
+
+<div class="layout-container single">
+  <div class="image-container">
+    <img src="old-add-data.png" alt="Original Add Data Page">
+    <div class="overlay"><h1>Image of Original Add Data Page</h1></div>
+  </div>
+</div>
+
+
+      <div class="dual-cream-background padding-large">
+        <div class="titles">The Problem</div>
+
+        <p>This work around led to difficulties in uploading, editing, and saving data efficiently. As a result, users couldn't fully leverage the benefits of Alchemite's "Model Revisions", which show the Model's improvement with each new data addition. This feature only works when data is added to an existing Model, not when new Models are created.
+        </p>
+
+      </div>
+
+      <div class="single-white-background padding-large">
+        <div>
+          <div class="titles">
+            <h1>Purpose</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="dual-white-background">
+        <div class="titles">User Goals</div>
+        <p>After gathering insights from customer requests and conducting user interviews, we discovered a common user need. Individuals who perform new experiments in the lab expressed a strong desire to seamlessly upload this data into their Alchemite Model. Our research allowed us to pinpoint the key objectives users have when adding data:</p>
+      </div>
+            
+      <div class="dual-white-background padding-small">
+        <div class="titles"></div>
+          <ul class="bullet">
+            <li>Have the ability to drag and drop excel files onto the page
+              </li>
+            <pre> </pre>
+            <li>Add single and multiple rows of data at a time</li>
+            <pre> </pre>
+            <li>Be able to easily edit and review the data adding before saving it to the Model</li>
+          </ul>
+      </div>
+
+      <div class="dual-white-background padding-large">
+        <div class="titles">Our Goals</div>
+        <p>The business goal for the year was to improve customer retention to >90%. In turn, our product goal was to increase customer satisfaction and reduce the time to value for users in Alchemite Analytics.</p>
+      </div>
+
+      <div class="single-cream-background padding-large">
+        <div>
+          <div class="titles">
+            <h1>Define</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="dual-cream-background">
+        <div class="titles">User Workflow</div>
+        <p>After interviewing our users, we gained a deep understanding of their preferred data addition workflow. Designing to meet these user needs and streamline the process is key to saving time and delivering value by eliminating unnecessary steps.</p>
+      </div>
+
+      <div class="single-cream-background padding-large">
+        <div class="image-container">
+          <img src="workflow.png" alt="Add Data Workflow">
+          
+        </div>
+      </div>
+
+      <div class="single-white-background padding-large">
+        <div>
+          <div class="titles">
+            <h1>Feature Requirements</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="dual-white-background padding-small">
+        <div class="titles">User Objectives</div>
+        <ul class="bullet">
+          <li>Easily be able to upload their data
+          </li>
+          <pre> </pre>
+          <li>Upload both single and multiple rows at once</li>
+          <pre> </pre>
+          <li>Be able to easily edit and review the data adding before saving it to the Models</li>
+        </ul>
+      
+      </div>
+
+      <div class="dual-white-background padding-large">
+        <div class="titles">New Feature Requirements</div>
+        <ul class="bullet">
+          <li>Include a drag and drop tile which is visible on the interface
+          </li>
+          <pre> </pre>
+          <li>Compatible with single and batch rows</li>
+          <pre> </pre>
+          <li>Editable table which can be reviewed for the data is saved to the Model</li>
+        </ul>
+      
+      </div>
+
+
+      <div class="single-cream-background padding-large">
+        <div>
+          <div class="titles">
+            <h1>Ideation</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="dual-cream-background padding-bottom-large ">
+        <div class="titles">Lo-Fi Wireframes</div>
+        <p>During the ideation stage, I worked closely with the Product Manager and Engineering team to generate and develop versions of the add data page which would be both valuable to users and feasible to build. We went through rounds of <b>brainstorming and developed storyboards</b> to help us generate design solutions.</p>
+      </div>
+
+      <div class="dual-cream-background ">
+        <div class="titles">Usability Tests</div>
+        <p>After creating initial designs within the product trio, we subjected the designs to user testing. This feedback highlighted two key challenges with the new page:</p>
+      </div>
+            
+      <div class="dual-cream-background padding-small">
+        <div class="titles"></div>
+          <ul class="bullet">
+            <li>The design did not clearly indicate that the cells were editable
+              </li>
+            <pre> </pre>
+            <li>There was no obvious confirmation mechanism for adding data to the Model</li>
+
+      
+          </ul>
+      </div>
+
+      
+      <div class="dual-cream-background padding-top-large">
+        <div class="titles">Responding to Feedback</div>
+        <p>In response to the feedback, we implemented the following design changes:</p>
+      </div>
+            
+      <div class="dual-cream-background padding-bottom-large">
+        <div class="titles"></div>
+          <ul class="bullet">
+            <li>Permanently displaying editable cells, using UI elements like hover effects.
+              </li>
+            <pre> </pre>
+            <li>Introducing a confirmation modal that appears when users click the 'Save to Model' button.</li>
+
+      
+          </ul>
+      </div>
+
+      <div class="single-white-background padding-top-large">
+        <div>
+          <div class="titles">
+            <h1>First Release</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="dual-white-background padding-bottom-large">
+        <div class="titles"></div>
+        <p class="centertext">As our engineering team operates with <b>continuous delivery</b>, we were able to launch a first release. The first version was an editable table interface that allowed users to either input data manually in a single row or conveniently drag and drop an entire dataset to auto-populate the table. Users had the flexibility to make edits as needed before saving the data to create a new Model.</p>
+      </div>
+    
+      </div>
+
+      <div class="single-white-background padding-large">
+        <div class="image-container">
+          <img src="first-version.png" alt="Add Data First Version">
+          
+        </div>
+      </div>
+
+      <div class="single-cream-background padding-top-large">
+        <div>
+          <div class="titles">
+            <h1>Agile Changes and Final Result</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="dual-cream-background padding-bottom-large">
+        <div class="titles"></div>
+        <p class="centertext">After the initial release, we assessed user feedback and observed that the feature was generally more user-friendly than the previous page. Yet, there were a few areas that required enhancement. In response, we adopted an agile approach and promptly made UI adjustments to further enhance the user experience.</p>
+      </div>
+
+
+
+      <div class="tri-white-background padding-large">
+        <div class="titles">Visible Inputs</div>
+        <p>In our initial release, the input fields were not immediately visible, making it difficult for new users to discern their editability. As a result, we implemented a minor UI adjustment to ensure the input fields remained consistently available, rather than requiring a click to reveal them.</p>
+        <div class="align-right">
+          <div class="image-container">
+            <img src="input.png" alt="input">
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="tri-white-background padding-bottom-large">
+        <div class="titles">Success Banner</div>
+        <p>When uploading data, sometimes the data uploaded was not formatted correctly. Users were getting confused. As a solution, we implemented a success and error banner which would change depending of whether or not the data was compatible.</p>
+        <div class="align-right">
+          <div class="image-container">
+            <img src="banner.png" alt="Banner">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="tri-white-background padding-bottom-large">
+        <div class="titles">Retraining Modal</div>
+        <p>In the initial designs, we included a name input box on the interface. However, this proved to be confusing for users as it was constantly visible. To address this issue, we relocated the naming input to a Modal, which is activated when the user presses the create button</p>
+        <div class="align-right">
+          <div class="image-container">
+            <img src="modal.png" alt="Modal">
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="single-white-background .padding-top-large">
+        <div>
+          <div class="titles">
+            <h1>Revised Add Data Interface</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-white-background .padding-large">
+        <div class="image-container">
+          <img src="add-data-final.png" alt="Final Image">
+        </div>
+      </div>
+     </div>
+
+
+
+
+
+    <div class="box6 .padding-large">
+      <section class="button .padding-bottom-large">
+        <a href="#" id="back-to-top-btn">Back to Top</a>
+      </section>
+    </div>
+
+    <div class="single-white-background .padding-top-large">
+      <div>
+        <div class="titles">
+          <h1>More Case Studies</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="box5">
+      <div class="cs-grid">
+
+
+          <div class="grid-item">
+              <div class="cs-container">
+
+                  <div class="cs-grid-image">
+                    <img src="../Home Page/projects-hero.png" alt="Projects Hero Image">
+                      <a href="../Case Study 3/case-study-3.html" class="overlay-link">
+                          <div class="overlay"></div>
+                      </a>
+                  </div>
+
+                  <h1>Introducing Projects</h1>
+                  <h2>2024</h2>
+              </div>
+          </div>
+
+
+          <div class="grid-item">
+            <div class="cs-container">
+
+                <div class="cs-grid-image-1">
+                    <img src="../Home Page/dashboard-hero.png" alt="Dashboard Hero Image">
+                    <a href="../Case Study 1/case-study-1.html" class="overlay-link">
+                        <div class="overlay"></div>
+                    </a>
+                </div>
+
+                <h1>Model Dashboard Redesign</h1>
+                <h2>2023</h2>
+            </div>
+        </div>
+      </div>
+
+       
+
+  </div>
+
+
+  </main>
+
+
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-title">Find Me On</div>
+
+      <div class="socials">
+        <li class="media">
+          <a href="https://www.linkedin.com/in/ella-bektas-2111061a9" target="_blank" class="active"><i
+              class="fab fa-linkedin"></i></a>
+        </li>
+
+        <li class="media">
+          <a href="#" class="active"><i class="fab fa-github"></i></a>
+        </li>
+      </div>
+    </div>
+  </footer> 
+
+
+</body>
+
+</html>
