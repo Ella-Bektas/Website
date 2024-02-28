@@ -114,8 +114,8 @@ nav ul li.btn.show i:before {
 
 
 .box1 {
-  grid-column-start: 3;
-  grid-column-end: 9;
+  grid-column-start: 1;
+  grid-column-end: 11;
   min-height: 75vh;
   display: flex;
   flex-direction: column;
@@ -552,8 +552,8 @@ footer {
   }
 
   .box1 {
-    grid-column-start: 3;
-    grid-column-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 11;
 
     padding-left: 2rem;
     padding-right: 2rem;
