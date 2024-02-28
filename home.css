@@ -114,8 +114,8 @@ nav ul li.btn.show i:before {
 
 
 .box1 {
-  grid-column-start: 1;
-  grid-column-end: 11;
+  grid-column-start: 3;
+  grid-column-end: 9;
   min-height: 75vh;
   display: flex;
   flex-direction: column;
