@@ -552,8 +552,8 @@ footer {
   }
 
   .box1 {
-    grid-column-start: 1;
-    grid-column-end: 11;
+    grid-column-start: 2;
+    grid-column-end: 10;
 
     padding-left: 2rem;
     padding-right: 2rem;
@@ -683,8 +683,8 @@ footer {
 
   .box1 {
 
-    grid-column-start: 1;
-    grid-column-end: 11;
+    grid-column-start: 3;
+    grid-column-end: 9;
     padding-left: 5rem;
     padding-right: 5rem;
     padding-top: 80px;
